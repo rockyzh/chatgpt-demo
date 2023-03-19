@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "packageManager": "pnpm@7.28.0",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "node ./node_modules/astro/astro.js dev",
+    "start": "node ./node_modules/astro/astro.js dev",
     "build": "astro build",
     "build:vercel": "OUTPUT=vercel astro build",
     "build:netlify": "OUTPUT=netlify astro build",
