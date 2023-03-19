@@ -4,7 +4,7 @@
   "packageManager": "pnpm@7.28.0",
   "scripts": {
     "dev": "astro dev",
-    "start": "node ./dist/server/entry.mjs",
+    "start": "env HOST=0.0.0.0 node ./dist/server/entry.mjs",
     "build": "astro build",
     "build:vercel": "OUTPUT=vercel astro build",
     "build:netlify": "OUTPUT=netlify astro build",
