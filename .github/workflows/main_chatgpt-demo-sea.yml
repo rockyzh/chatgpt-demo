@@ -60,4 +60,3 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D11B1E7462F64196892C04CB20B0E411 }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-          startup-command: node ./dist/server/entry.mjs
